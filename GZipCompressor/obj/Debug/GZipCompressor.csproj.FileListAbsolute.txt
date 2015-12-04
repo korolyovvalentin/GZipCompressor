@@ -1,0 +1,1 @@
+c:\users\valentin.korolev\documents\visual studio 2013\Projects\GZipCompressor\GZipCompressor\bin\Debug\GZipCompressor.exe.config
