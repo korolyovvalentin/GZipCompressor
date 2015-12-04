@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZipCompressor", "GZipCompressor\GZipCompressor.csproj", "{0D312130-F07D-4BD9-B1B6-3B8829546364}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compressor.Compression", "Compression\Compressor.Compression.csproj", "{0F683B01-370B-4EDB-8007-2A51D523F3B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compressor.Threading", "Threading\Compressor.Threading.csproj", "{1C0701A6-2AE4-4EDA-B1DF-60DF44A08F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compressor.GZipCompression", "GZipCompression\Compressor.GZipCompression.csproj", "{BB81ECCF-518B-4100-A2E9-5E76B917B8B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{0D312130-F07D-4BD9-B1B6-3B8829546364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D312130-F07D-4BD9-B1B6-3B8829546364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D312130-F07D-4BD9-B1B6-3B8829546364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F683B01-370B-4EDB-8007-2A51D523F3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F683B01-370B-4EDB-8007-2A51D523F3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F683B01-370B-4EDB-8007-2A51D523F3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F683B01-370B-4EDB-8007-2A51D523F3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0701A6-2AE4-4EDA-B1DF-60DF44A08F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0701A6-2AE4-4EDA-B1DF-60DF44A08F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0701A6-2AE4-4EDA-B1DF-60DF44A08F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0701A6-2AE4-4EDA-B1DF-60DF44A08F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB81ECCF-518B-4100-A2E9-5E76B917B8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB81ECCF-518B-4100-A2E9-5E76B917B8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB81ECCF-518B-4100-A2E9-5E76B917B8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB81ECCF-518B-4100-A2E9-5E76B917B8B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
